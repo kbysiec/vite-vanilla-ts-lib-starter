@@ -2,6 +2,14 @@
   "name": "vite-ts-lib-starter",
   "private": true,
   "version": "0.0.0",
+  "main": "./dist/vite-ts-lib-starter.cjs",
+  "module": "./dist/vite-ts-lib-starter.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/vite-ts-lib-starter.cjs",
+      "import": "./dist/vite-ts-lib-starter.mjs"
+    }
+  },
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
