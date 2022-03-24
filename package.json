@@ -12,8 +12,7 @@
   },
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc && vite build && dts-bundle-generator ./src/index.ts -o ./dist/typings.d.ts",
-    "preview": "vite preview"
+    "build": "tsc && vite build && dts-bundle-generator ./src/index.ts -o ./dist/typings.d.ts"
   },
   "devDependencies": {
     "dts-bundle-generator": "^6.5.0",
