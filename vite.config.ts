@@ -1,9 +1,9 @@
-const packageJson = require("./package.json");
-const path = require("path");
-const { defineConfig } = require("vite");
+import path from "path";
+import { defineConfig } from "vite";
+import packageJson from "./package.json";
 
 const getPackageName = () => {
-    return packageJson.name;
+  return packageJson.name;
 };
 
 const getPackageNameCamelCase = () => {
@@ -27,7 +27,7 @@ module.exports = defineConfig({
       entry: path.resolve(__dirname, "src/index.ts"),
       name: getPackageNameCamelCase(),
       formats: ["es", "cjs", "iife"],
-      fileName: (format) => fileName[format]
+      fileName: (format) => fileName[format],
     },
   },
 });

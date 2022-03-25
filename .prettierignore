@@ -1,8 +1,8 @@
 .history
-.coverage
 .husky
 .vscode
+coverage
 dist
 node_modules
-vite.config.js
-jest.config.js
+vite.config.ts
+jest.config.ts
