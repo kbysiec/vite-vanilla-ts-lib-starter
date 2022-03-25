@@ -12,10 +12,14 @@
   },
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc && vite build && dts-bundle-generator ./src/index.ts -o ./dist/typings.d.ts"
+    "build": "tsc && vite build && dts-bundle-generator ./src/index.ts -o ./dist/typings.d.ts",
+    "lint:scripts": "eslint . --ext .ts"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
     "dts-bundle-generator": "^6.5.0",
+    "eslint": "^8.11.0",
     "typescript": "^4.5.4",
     "vite": "^2.8.0"
   }
