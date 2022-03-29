@@ -1,5 +1,5 @@
 {
-  "name": "vite-ts-lib-starter",
+  "name": "vite-vanilla-ts-lib-starter",
   "private": true,
   "version": "0.0.0",
   "main": "./dist/vite-ts-lib-starter.cjs",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc && vite build && dts-bundle-generator ./src/index.ts -o ./dist/typings.d.ts",
+    "build": "tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts",
     "test": "jest --runInBand",
     "test:coverage": "jest --runInBand --coverage",
     "lint:scripts": "eslint . --ext .ts",
