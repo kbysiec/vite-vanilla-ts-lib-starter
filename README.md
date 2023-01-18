@@ -1,6 +1,6 @@
 # vite-vanilla-ts-lib-starter
 
-The starter is built on top of Vite 3.x and prepared for writing libraries in TypeScript. It generates a hybrid package - both support for CommonJS and ESM modules.
+The starter is built on top of Vite 4.x and prepared for writing libraries in TypeScript. It generates a hybrid package - both support for CommonJS and ESM modules.
 
 ## Features
 
@@ -52,6 +52,7 @@ The starter contains the following scripts:
 - `format:styles` - format `.cs` and `.scss` files with stylelint
 - `format` - format all with prettier and stylelint
 - `prepare` - script for setting up husky pre-commit hook
+- `uninstall-husky` - script for removing husky from repository
 
 ## Acknowledgment
 
