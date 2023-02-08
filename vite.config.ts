@@ -20,13 +20,15 @@ const fileName = {
   iife: `${getPackageName()}.iife.js`,
 };
 
+const formats = Object.keys(fileName) as Array<keyof typeof fileName>;
+
 module.exports = defineConfig({
   base: "./",
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: getPackageNameCamelCase(),
-      formats: ["es", "cjs", "iife"],
+      formats,
       fileName: (format) => fileName[format],
     },
   },
