@@ -43,7 +43,7 @@ And, enjoy :)
 The starter contains the following scripts:
 
 - `dev` - starts dev server
-- `build` - generates the following bundles: CommonJS (`.cjs`) ESM (`.mjs`) and IIFE (`.iife.js`). The name of bundle is automatically taked from `package.json` name property
+- `build` - generates the following bundles: CommonJS (`.cjs`) ESM (`.mjs`) and IIFE (`.iife.js`). The name of bundle is automatically taken from `package.json` name property
 - `test` - starts vitest and runs all tests
 - `test:coverage` - starts vitest and run all tests with code coverage report
 - `lint:scripts` - lint `.ts` files with eslint
