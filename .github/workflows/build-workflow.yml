@@ -1,12 +1,12 @@
 # Name of workflow to be displyed on Github Console
 name: Build
 
-# Triggers the workflow on separate events 
+# Triggers the workflow on separate events
 on:
   push:
     # Trigger the worflow on push event for all branches
     branches:
-      -  '**'  
+      - "**"
   pull_request:
     # Trigger the worflow on pull request event for main branch
     branches:
