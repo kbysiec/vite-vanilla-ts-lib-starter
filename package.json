@@ -25,6 +25,7 @@
     "uninstall-husky": "npm uninstall husky --no-save && git config --unset core.hooksPath && npx rimraf .husky"
   },
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "@types/jsdom": "^21.1.1",
     "@types/node": "^20.4.9",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
@@ -40,6 +41,7 @@
     "postcss-scss": "^4.0.6",
     "prettier": "^3.0.1",
     "rimraf": "^5.0.1",
+    "semantic-release": "^22.0.5",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended": "^9.0.0",
