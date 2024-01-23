@@ -1,9 +1,8 @@
 {
-  "plugins": ["stylelint-prettier"],
+  "plugins": ["stylelint-order", "stylelint-prettier"],
   "extends": [
     "stylelint-config-recommended",
-    "stylelint-config-sass-guidelines",
-    "stylelint-config-prettier"
+    "stylelint-config-sass-guidelines"
   ],
   "overrides": [
     {
@@ -13,9 +12,9 @@
   ],
   "rules": {
     "prettier/prettier": true,
-    "function-parentheses-space-inside": null,
     "no-descending-specificity": null,
     "max-nesting-depth": 2,
-    "selector-max-id": 1
+    "selector-max-id": 1,
+    "order/properties-alphabetical-order": true
   }
 }
