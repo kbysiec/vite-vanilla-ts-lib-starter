@@ -34,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vitest/coverage-v8": "^1.2.1",
+    "copyfiles": "^2.4.1",
     "dts-bundle-generator": "^9.2.4",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
