@@ -8,6 +8,10 @@
     ".": {
       "require": "./dist/vite-vanilla-ts-lib-starter.cjs",
       "import": "./dist/vite-vanilla-ts-lib-starter.mjs"
+    },
+    "./dist/": {
+      "import": "./dist/",
+      "require": "./dist/"
     }
   },
   "types": "./dist/vite-vanilla-ts-lib-starter.d.ts",
