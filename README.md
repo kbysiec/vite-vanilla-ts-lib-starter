@@ -1,10 +1,10 @@
 # vite-vanilla-ts-lib-starter
 
-The starter is built on top of Vite 5.x and prepared for writing libraries in TypeScript. It generates a hybrid package - both support for CommonJS and ESM modules.
+The starter is built on top of Vite 5.x and prepared for writing libraries in TypeScript. It generates a package with support for ESM modules and IIFE.
 
 ## Features
 
-- Hybrid support - CommonJS and ESM modules
+- ESM modules
 - IIFE bundle for direct browser support without bundler
 - Typings bundle
 - ESLint - scripts linter
@@ -43,7 +43,7 @@ And, enjoy :)
 The starter contains the following scripts:
 
 - `dev` - starts dev server
-- `build` - generates the following bundles: CommonJS (`.cjs`) ESM (`.mjs`) and IIFE (`.iife.js`). The name of bundle is automatically taken from `package.json` name property
+- `build` - generates the following bundles: ESM (`.js`) and IIFE (`.iife.js`). The name of bundle is automatically taken from `package.json` name property
 - `test` - starts vitest and runs all tests
 - `test:coverage` - starts vitest and run all tests with code coverage report
 - `lint:scripts` - lint `.ts` files with eslint
