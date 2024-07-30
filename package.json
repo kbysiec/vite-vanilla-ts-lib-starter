@@ -1,7 +1,7 @@
 {
   "name": "vite-vanilla-ts-lib-starter",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "module": "./dist/vite-vanilla-ts-lib-starter.js",
   "type": "module",
   "exports": {
