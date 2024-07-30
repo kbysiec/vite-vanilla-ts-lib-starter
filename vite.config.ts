@@ -16,14 +16,13 @@ const getPackageNameCamelCase = () => {
 };
 
 const fileName = {
-  es: `${getPackageName()}.mjs`,
-  cjs: `${getPackageName()}.cjs`,
+  es: `${getPackageName()}.js`,
   iife: `${getPackageName()}.iife.js`,
 };
 
 const formats = Object.keys(fileName) as Array<keyof typeof fileName>;
 
-module.exports = defineConfig({
+export default defineConfig({
   base: "./",
   build: {
     outDir: "./build/dist",

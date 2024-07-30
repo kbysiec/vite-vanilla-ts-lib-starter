@@ -1,17 +1,15 @@
 {
   "name": "vite-vanilla-ts-lib-starter",
   "private": true,
-  "version": "0.0.2",
-  "main": "./dist/vite-vanilla-ts-lib-starter.cjs",
-  "module": "./dist/vite-vanilla-ts-lib-starter.mjs",
+  "version": "0.0.3",
+  "module": "./dist/vite-vanilla-ts-lib-starter.js",
+  "type": "module",
   "exports": {
     ".": {
-      "require": "./dist/vite-vanilla-ts-lib-starter.cjs",
-      "import": "./dist/vite-vanilla-ts-lib-starter.mjs"
+      "import": "./dist/vite-vanilla-ts-lib-starter.js"
     },
     "./dist/": {
-      "import": "./dist/",
-      "require": "./dist/"
+      "import": "./dist/"
     }
   },
   "types": "./dist/index.d.ts",
