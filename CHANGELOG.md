@@ -2,6 +2,11 @@
 
 All notable changes to the "vite-vanilla-ts-lib-starter" project will be documented in this file.
 
+## [0.0.5] - 2025-02-26
+
+- Update all packages to the latest versions (update to vite 6.x)
+- Rewrite eslint config to flat config format
+
 ## [0.0.4] - 2024-07-30
 
 - Update all packages to the latest versions
