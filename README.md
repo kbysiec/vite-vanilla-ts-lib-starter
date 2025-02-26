@@ -1,6 +1,6 @@
 # vite-vanilla-ts-lib-starter
 
-The starter is built on top of Vite 5.x and prepared for writing libraries in TypeScript. It generates a package with support for ESM modules and IIFE.
+The starter is built on top of Vite 6.x and prepared for writing libraries in TypeScript. It generates a package with support for ESM modules and IIFE.
 
 ## Features
 
@@ -36,7 +36,7 @@ When you use this template, update the following:
 - Change the author name in `LICENSE`
 - Clean up the `README` and `CHANGELOG` files
 
-And, enjoy :)
+And, enjoy 😊
 
 ## Usage
 
