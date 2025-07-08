@@ -1,6 +1,6 @@
 # vite-vanilla-ts-lib-starter
 
-The starter is built on top of Vite 6.x and prepared for writing libraries in TypeScript. It generates a package with support for ESM modules and IIFE.
+The starter is built on top of Vite 7.x and prepared for writing libraries in TypeScript. It generates a package with support for ESM modules and IIFE.
 
 ## Features
 
@@ -32,7 +32,7 @@ npm i
 When you use this template, update the following:
 
 - Remove `.git` directory and run `git init` to clean up the history
-- Change the name in `package.json` - it will be the name of the IIFE bundle global variable and bundle files name (`.cjs`, `.mjs`, `.iife.js`, `d.ts`)
+- Change the name in `package.json` - it will be the name of the IIFE bundle global variable and bundle files name (`.mjs`, `.iife.js`, `d.ts`)
 - Change the author name in `LICENSE`
 - Clean up the `README` and `CHANGELOG` files
 

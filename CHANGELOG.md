@@ -2,6 +2,10 @@
 
 All notable changes to the "vite-vanilla-ts-lib-starter" project will be documented in this file.
 
+## [0.0.6] - 2025-07-08
+
+- Update all packages to the latest versions (update to vite 7.x)
+
 ## [0.0.5] - 2025-02-26
 
 - Update all packages to the latest versions (update to vite 6.x)
