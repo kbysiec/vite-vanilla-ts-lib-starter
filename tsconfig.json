@@ -3,7 +3,7 @@
     "rootDir": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@@/*": ["./*"],
+      "@@/*": ["./*"]
     },
     "target": "ESNext",
     "useDefineForClassFields": true,
@@ -19,8 +19,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["vite/client", "node"],
+    "types": ["vite/client", "node"]
   },
   "include": ["src"],
-  "exclude": ["**/*.test.ts", "node_modules", "test/**", ".history/**"],
+  "exclude": ["**/*.test.ts", "node_modules", "test/**", ".history/**"]
 }
